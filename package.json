@@ -1,0 +1,20 @@
+{
+  "name": "2d-comedy-short",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MeetingComedy out/meeting-comedy.mp4 --codec h264",
+    "build": "remotion render src/index.ts MeetingComedy out/meeting-comedy.mp4 --codec h264"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.410",
+    "remotion": "4.0.410",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
